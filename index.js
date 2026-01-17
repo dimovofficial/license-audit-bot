@@ -14,7 +14,7 @@ const {
 const { REST } = require("@discordjs/rest");
 
 /* === НАСТРОЙКИ === */
-const TOKEN = "process.env.BOT_TOKEN;";
+const TOKEN = process.env.BOT_TOKEN;
 const CLIENT_ID = "1462075896159535435";
 const GUILD_ID = "1275037635944906752";
 const ALLOWED_CHANNEL_ID = "1462061587996348436";
